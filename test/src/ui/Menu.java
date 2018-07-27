@@ -1,6 +1,6 @@
-package UI;
+package ui;
 
-import BE.PiggyBank;
+import be.PiggyBank;
 
 import java.io.BufferedReader;
 import java.io.IOException;

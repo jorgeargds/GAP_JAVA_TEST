@@ -1,4 +1,4 @@
-package BE;
+package be;
 
 public class PiggyBank {
 
@@ -6,7 +6,7 @@ public class PiggyBank {
     private int[] totalCoinsPerType;
 
     public PiggyBank() {
-        coins = new int[6];
+        coins = new int[5];
         totalCoinsPerType = new int[coins.length];
         this.initCoins();
     }
@@ -17,7 +17,6 @@ public class PiggyBank {
         this.coins[2] = 200;
         this.coins[3] = 500;
         this.coins[4] = 1000;
-        this.coins[5] = 2000;
     }
 
     public String getPiggyBankAccount() {

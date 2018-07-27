@@ -1,6 +1,6 @@
-import UI.UserInterface;
+import ui.UserInterface;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         UserInterface ui = new UserInterface();
